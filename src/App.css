@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -28,11 +29,33 @@
   color: #61dafb;
 }
 
+.submit {
+  cursor: pointer;
+}
+
+.inputData {
+  margin: 10px
+}
+
+.formSubmit {
+  margin: 20px;
+}
+
+.chart {
+  width: 80vw
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .chart{
+    width: 100vw;
   }
 }
